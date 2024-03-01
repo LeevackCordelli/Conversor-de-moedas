@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="./assets/logo.GIF" alt="money-logo" class="logo">
+    <main>
+        <label>
+            Converter <b>de</b>
+            <br>
+            <select class="oselect">
+                <option value="real">
+                    R$ Real brasileiro
+                </option>
+                <option value="odolar">
+                    US$ Dolar Americano
+                </option>
+                <option value="oeuro">
+                     Euro €
+                </option>
+
+            </select>
+        </label>
+        <br>
+
+
+        <label>
+            <b>para</b>
+            <br>
+            <select class="seletor-moeda-a-converter">
+
+                <option value="dolar">
+                    US$ Dolar Americano
+                </option>
+                
+                <option value="euro">
+                     Euro €
+                </option>
+                <option value="real">R$ Real brasileiro</option>
+            </select>
+        </label>
+        <br>
+
+        <label>
+            <b>Valor a converter:</b>
+            <br>
+            <input class="input-valor-a-converter" placeholder="R$">
+        </label>
+        <br>
+        <br>
+        <button>Converter</button>
+        <section>
+            <div>
+                <img src="./assets/IMG_1323.JPG" alt="simbolo-moeda-a-converter" class="simbolo-moeda-a-converter">
+                <p class="moeda-a-converter">Real</p>
+                <p class="convert">R$ 0,00</p>
+            </div>
+            <img src="./assets/IMG_1322.JPG" alt="seta" class="seta">
+            <div>
+                <img src="./assets/IMG_1324.PNG" alt="simbolo-moeda-convertida" class="simbolo-moeda-convertida">
+                <p class="moeda-convertida">Dólar</p>
+                <p class="result">US$ 0,00</p>
+            </div>
+           
+        </section>
+        
+    </main>
+</body>
+<script src="./scrips.js"></script>
+
+</html>

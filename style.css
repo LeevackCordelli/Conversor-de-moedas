@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body {
+
+    background: #8A51FC;
+
+}
+
+.logo {
+    display: block;
+    margin: 0px auto 10px auto;
+    width: 220px;
+
+}
+
+main {
+    display: block;
+    width: 375px;
+    height: 695px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0px auto 50px auto;
+    padding-top: 30px;
+
+}
+
+label {
+    margin-left: 20px;
+
+}
+
+select {
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+    font-weight: 700;
+    border: 1px solid #979797;
+    appearance: none;
+    padding-left: 10px;
+    color: #555555;
+}
+
+input {
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #979797;
+    filter: drop-shadow(0px 3px 2px #979797);
+    padding-left: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #8A51FC;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    height: auto;
+    gap: 8px;
+}
+
+button {
+    display: block;
+    margin: 0 auto 35px auto;
+    width: 90%;
+    height: 40px;
+    background: purple;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    filter: drop-shadow(0px 3px 2px #979797);
+    
+}
+
+.simbolo-moeda-a-converter {
+
+    width: 50px;
+margin-bottom: 9px;
+}
+
+.seta {
+    width: 50px;
+    height: 70px;
+
+}
+
+.simbolo-moeda-convertida {
+    width: 50px;
+
+
+}
+
+.moeda-a-converter {
+    font-weight: 700;
+    color: #555555;
+}
+
+.moeda-convertida {
+    color: #555555;
+    font-weight: 700;
+}
