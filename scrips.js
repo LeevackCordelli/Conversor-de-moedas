@@ -3,15 +3,23 @@ const select = document.querySelector(".seletor-moeda-a-converter")
 const result = document.querySelector(".result")
 const oselect = document.querySelector(".oselect")
 const oconvert = document.querySelector(".convert")
-function convert() {
+const convert = async () => {
     const input = document.querySelector(".input-valor-a-converter").value
-    const dolar = 5
-    const euro = 5.4
+    
+    const data = await fetch( "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL" ).then( response => response.json() )
+    
+    const dolar = data.USDBRL.high
+    const euro = data.EURBRL.high
     const real = 1
     const euroDolar = 0.9231905
     const dolarEuro = 1.0832
     const euroReal = 0.18539
     const dolarReal = 0.2006702
+
+
+
+
+console.log(data)
 
 
     if (oselect.value == "odolar") {
