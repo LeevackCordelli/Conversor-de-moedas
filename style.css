@@ -7,14 +7,18 @@
 }
 
 body {
-
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
     background: #8A51FC;
-
+gap: 30px;
 }
 
 .logo {
-    display: block;
-    margin: 0px auto 10px auto;
+    display: flex;
+    
     width: 220px;
 
 }
@@ -25,7 +29,7 @@ main {
     height: 695px;
     background: #F4F4F4;
     border-radius: 20px;
-    margin: 0px auto 50px auto;
+    
     padding-top: 30px;
 
 }
@@ -90,7 +94,7 @@ button {
 .simbolo-moeda-a-converter {
 
     width: 50px;
-margin-bottom: 9px;
+
 }
 
 .seta {
